@@ -31,7 +31,13 @@ function extractBaseNumber(str: string): string | null {
 }
 
 export async function runFinancialSync() {
-    process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+    // NODE_TLS_REJECT_UNAUTHORIZED não é desabilitado globalmente.
+    // Se o portal de Osasco apresentar problemas de certificado autoassinado,
+    // configure NODE_EXTRA_CA_CERTS apontando para o certificado raiz do portal,
+    // ou defina SYNC_ALLOW_SELF_SIGNED=true com plena ciência do risco de MITM.
+    if (process.env.SYNC_ALLOW_SELF_SIGNED === 'true') {
+        process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+    }
 
     const payload = {
         "ChaveModulo": "66",

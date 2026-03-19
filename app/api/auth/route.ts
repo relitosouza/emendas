@@ -7,7 +7,11 @@ const BLOCK_DURATION_MS = 15 * 60 * 1000; // 15 minutes
 const PENALTY_COOKIE = "login-penalty";
 
 function getPenaltySecret(): string {
-    return process.env.ADMIN_SESSION_SECRET || process.env.ADMIN_PASSWORD || "fallback-penalty";
+    const secret = process.env.ADMIN_SESSION_SECRET;
+    if (!secret) {
+        throw new Error("ADMIN_SESSION_SECRET não configurado.");
+    }
+    return secret;
 }
 
 function signPenalty(payload: string): string {
@@ -19,7 +23,11 @@ function readPenaltyCookie(req: NextRequest): { count: number; blockedUntil: num
     if (!raw) return null;
     try {
         const [data, sig] = raw.split("|");
-        if (signPenalty(data) !== sig) return null;
+        if (!data || !sig) return null;
+        const expected = signPenalty(data);
+        // Comparação em tempo constante para evitar timing attacks
+        if (sig.length !== expected.length) return null;
+        if (!crypto.timingSafeEqual(Buffer.from(sig), Buffer.from(expected))) return null;
         return JSON.parse(Buffer.from(data, "base64").toString("utf-8"));
     } catch {
         return null;

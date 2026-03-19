@@ -4,7 +4,11 @@ import crypto from "crypto";
 const SESSION_COOKIE = "admin-session";
 
 function getSecret(): string {
-    return process.env.ADMIN_SESSION_SECRET || process.env.ADMIN_PASSWORD || "fallback-secret";
+    const secret = process.env.ADMIN_SESSION_SECRET;
+    if (!secret) {
+        throw new Error("ADMIN_SESSION_SECRET não configurado. Defina a variável de ambiente antes de iniciar o servidor.");
+    }
+    return secret;
 }
 
 /**

@@ -62,6 +62,12 @@ export async function POST(request: Request) {
             return NextResponse.json({ error: "Arquivo CSV obrigatório" }, { status: 400 });
         }
 
+        // Limite de 5 MB para evitar DoS por arquivo grande
+        const MAX_CSV_BYTES = 5 * 1024 * 1024;
+        if (file.size > MAX_CSV_BYTES) {
+            return NextResponse.json({ error: "Arquivo CSV muito grande (máximo 5 MB)" }, { status: 413 });
+        }
+
         const content = await file.text();
         const rows = parseCSV(content);
 
@@ -112,7 +118,6 @@ export async function POST(request: Request) {
         });
     } catch (error) {
         console.error("Error importing financial CSV:", error);
-        const message = error instanceof Error ? error.message : "Falha ao importar CSV financeiro";
-        return NextResponse.json({ error: message }, { status: 500 });
+        return NextResponse.json({ error: "Falha ao importar CSV financeiro" }, { status: 500 });
     }
 }
