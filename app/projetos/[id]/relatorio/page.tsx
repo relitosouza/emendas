@@ -4,11 +4,28 @@ import { getCategoryLabel, parseCurrency, formatCurrency } from "@/lib/amendment
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import PrintReportButton from "./print-button";
+import type { Metadata } from "next";
 
 export const revalidate = 60;
 
 interface Props {
     params: Promise<{ id: string }>;
+}
+
+export async function generateMetadata(props: Props): Promise<Metadata> {
+    const { id } = await props.params;
+    try {
+        const amendments = await getAmendmentsFromSheet();
+        const a = amendments.find((x) => x.id === id);
+        const title = a ? `Relatório — ${a.objeto || a.title || `Emenda ${a.numeroEmenda}`}` : "Relatório de Emenda";
+        return {
+            title,
+            // Página de relatório não deve ser indexada (conteúdo duplicado da página principal)
+            robots: { index: false, follow: false },
+        };
+    } catch {
+        return { robots: { index: false, follow: false } };
+    }
 }
 
 export default async function RelatorioPage(props: Props) {

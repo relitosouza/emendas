@@ -6,14 +6,56 @@ import Link from "next/link";
 import Navbar from "@/components/shared/navbar";
 import ShareCard from "@/components/projects/share-card";
 import TechnicalDetailsAccordion from "@/components/projects/technical-details-accordion";
+import type { Metadata } from "next";
 
 export const revalidate = 60;
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://emendas.osasco.sp.gov.br";
 
 interface Props {
     params: Promise<{
         id: string;
     }>;
+}
+
+export async function generateMetadata(props: Props): Promise<Metadata> {
+    const { id } = await props.params;
+    try {
+        const amendments = await getAmendmentsFromSheet();
+        const a = amendments.find((x) => x.id === id);
+        if (!a) return {};
+
+        const title = a.objeto || a.title || `Emenda ${a.numeroEmenda || id}`;
+        const valor = formatCurrency(parseCurrency(a.valorAutorizado || a.valor));
+        const status = getNormalizedStatus(a.status);
+        const description = [
+            a.finalidade,
+            a.autor ? `Autor: ${a.autor}` : null,
+            a.orgaoBeneficiario ? `Beneficiário: ${a.orgaoBeneficiario}` : null,
+            `Valor: ${valor}`,
+            `Status: ${status}`,
+        ]
+            .filter(Boolean)
+            .join(" · ")
+            .slice(0, 160);
+
+        const pageUrl = `${siteUrl}/projetos/${id}`;
+        return {
+            title,
+            description,
+            openGraph: {
+                type: "article",
+                url: pageUrl,
+                title: `${title} | Portal das Emendas de Osasco`,
+                description,
+                images: [{ url: "/brasao-osasco.png", width: 512, height: 512, alt: title }],
+            },
+            twitter: { card: "summary", title, description, images: ["/brasao-osasco.png"] },
+            alternates: { canonical: pageUrl },
+        };
+    } catch {
+        return {};
+    }
 }
 
 export default async function ProjetoDetalhePage(props: Props) {
@@ -94,8 +136,27 @@ export default async function ProjetoDetalhePage(props: Props) {
 
     const statusInfo = getStatusLabel();
 
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "GovernmentService",
+        name: amendment.objeto || amendment.title || `Emenda ${amendment.numeroEmenda}`,
+        description: amendment.finalidade || amendment.objeto || "",
+        url: `${siteUrl}/projetos/${amendment.id}`,
+        provider: {
+            "@type": "GovernmentOrganization",
+            name: "Câmara Municipal de Osasco",
+            address: { "@type": "PostalAddress", addressLocality: "Osasco", addressRegion: "SP", addressCountry: "BR" },
+        },
+        areaServed: { "@type": "City", name: "Osasco", containedIn: "São Paulo, Brasil" },
+        ...(amendment.autor ? { serviceOperator: { "@type": "Person", name: amendment.autor } } : {}),
+    };
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             {/* ========================================================= */}
             {/* ============ LAYOUT DE IMPRESSÃO (PDF/PAPEL) ============ */}
             {/* ========================================================= */}
