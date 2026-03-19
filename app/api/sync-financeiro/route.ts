@@ -13,10 +13,11 @@ export async function GET() {
 }
 
 export async function POST(request: Request) {
+    // Suporte a chamada via SYNC_SECRET para automação interna (ex: crontab do servidor)
     const authHeader = request.headers.get("authorization");
-    const isCron = authHeader === `Bearer ${process.env.CRON_SECRET}`;
+    const isInternalScheduler = process.env.SYNC_SECRET && authHeader === `Bearer ${process.env.SYNC_SECRET}`;
 
-    if (!isCron && !(await isAuthenticated())) {
+    if (!isInternalScheduler && !(await isAuthenticated())) {
         return unauthorizedResponse();
     }
 

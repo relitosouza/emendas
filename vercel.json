@@ -1,8 +1,3 @@
 {
-  "crons": [
-    {
-      "path": "/api/sync-financeiro",
-      "schedule": "0 9 * * *"
-    }
-  ]
+  "_comentario": "Este arquivo era usado para deploy na Vercel. O sistema foi migrado para servidor próprio. O agendamento de sincronização financeira é feito via 'npm run cron' (node-cron) ou pelo crontab do sistema operacional."
 }
