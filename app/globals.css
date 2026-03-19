@@ -1,0 +1,230 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-plus-jakarta);
+  --font-heading: var(--font-plus-jakarta);
+  --font-mono: var(--font-jetbrains-mono);
+
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+
+  --color-surface: var(--surface);
+
+  /* Premium Theme */
+  --color-background-premium: var(--background-premium);
+  --color-text-main: var(--text-main);
+
+  --color-sector-health-bg: var(--sector-health-bg);
+  --color-sector-health-text: var(--sector-health-text);
+  --color-sector-infra-bg: var(--sector-infra-bg);
+  --color-sector-infra-text: var(--sector-infra-text);
+  --color-sector-edu-bg: var(--sector-edu-bg);
+  --color-sector-edu-text: var(--sector-edu-text);
+
+  --color-status-success: var(--status-success);
+  --color-status-warning: var(--status-warning);
+  --color-status-danger: var(--status-danger);
+
+  /* User Custom Colors - Direct Hex to avoid panic */
+  --color-accent: #3B82F6;
+  --color-background-paper: #F8F9FA;
+  --color-text-main: #2D2D2D;
+
+  --shadow-hard: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+
+  @keyframes accordion-down {
+    from { height: 0; }
+    to { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to { height: 0; }
+  }
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+}
+
+@layer base {
+  :root {
+    /* Fonts */
+    --font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+    --font-jetbrains-mono: 'JetBrains Mono', monospace;
+
+    /* Colors */
+    --primary: #1A1A1A;
+    --primary-dark: #000000;
+
+    --background: #f4f4f0;
+    --foreground: #2D2D2D;
+
+    --surface: #ffffff;
+
+    --status-success: #007A5E;
+    --status-warning: #EDC805;
+    --status-danger: #D93025;
+
+    /* Premium Theme Colors */
+    --background-premium: #F8F9FA;
+    --text-main: #2D2D2D;
+
+    /* Sectors */
+    --sector-health-bg: #E3F2FD;
+    --sector-health-text: #1565C0;
+    --sector-infra-bg: #EFEBE9;
+    --sector-infra-text: #4E342E;
+    --sector-edu-bg: #FFF3E0;
+    --sector-edu-text: #EF6C00;
+
+    /* Shadcn/UI Mappings */
+    --card: hsl(0 0% 100%);
+    --card-foreground: hsl(222.2 84% 4.9%);
+    --popover: hsl(0 0% 100%);
+    --popover-foreground: hsl(222.2 84% 4.9%);
+    --primary-foreground: hsl(210 40% 98%);
+    --secondary: hsl(210 40% 96.1%);
+    --secondary-foreground: hsl(222.2 47.4% 11.2%);
+    --muted: hsl(210 40% 96.1%);
+    --muted-foreground: hsl(215.4 16.3% 46.9%);
+    --accent: hsl(210 40% 96.1%);
+    --accent-foreground: hsl(222.2 47.4% 11.2%);
+    --destructive: hsl(0 84.2% 60.2%);
+    --destructive-foreground: hsl(210 40% 98%);
+    --border: hsl(0 0% 0%);
+    --input: hsl(214.3 31.8% 91.4%);
+    --ring: hsl(222.2 84% 4.9%);
+    --radius: 0px;
+  }
+
+  .dark {
+    --background: #111921;
+    --foreground: #f1f5f9;
+    --surface: #1e293b;
+
+    --primary: #156bc1;
+    --primary-dark: #60a5fa;
+
+    /* Shadcn Mappings Dark */
+    --card: hsl(222.2 84% 4.9%);
+    --card-foreground: hsl(210 40% 98%);
+    --popover: hsl(222.2 84% 4.9%);
+    --popover-foreground: hsl(210 40% 98%);
+    --primary-foreground: hsl(222.2 47.4% 11.2%);
+    --secondary: hsl(217.2 32.6% 17.5%);
+    --secondary-foreground: hsl(210 40% 98%);
+    --muted: hsl(217.2 32.6% 17.5%);
+    --muted-foreground: hsl(215 20.2% 65.1%);
+    --accent: hsl(217.2 32.6% 17.5%);
+    --accent-foreground: hsl(210 40% 98%);
+    --destructive: hsl(0 62.8% 30.6%);
+    --destructive-foreground: hsl(210 40% 98%);
+    --border: hsl(217.2 32.6% 17.5%);
+    --input: hsl(217.2 32.6% 17.5%);
+    --ring: hsl(212.7 26.8% 83.9%);
+  }
+
+  * {
+    border-color: var(--border);
+    outline-color: color-mix(in srgb, var(--ring), transparent 50%);
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+/* ─── Acessibilidade Global (WCAG 2.1 AA / eMAG) ──────────────────────────── */
+
+/* Skip navigation link — eMAG 2.1 / WCAG 2.4.1 */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: 0 0 0.5rem 0.5rem;
+  text-decoration: none;
+  transition: top 0.1s;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Foco visível global — WCAG 2.4.7 / 2.4.11 */
+:focus-visible {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Alto contraste — eMAG / WCAG 1.4.3 */
+.high-contrast {
+  filter: contrast(2) grayscale(0.2);
+}
+
+/* Tamanho de fonte acessível — eMAG */
+:root {
+  --a11y-font-scale: 1;
+}
+html {
+  font-size: calc(1rem * var(--a11y-font-scale));
+}
+
+/* Respeitar preferência de movimento reduzido — WCAG 2.3.3 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Esconder visualmente mas manter acessível a leitores de tela */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: white !important;
+  }
+  .print-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 2rem !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}

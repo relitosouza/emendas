@@ -1,0 +1,11 @@
+{
+  "planPath": "docs/plans/2026-03-12-persistencia-kv.md",
+  "tasks": [
+    {"id": 1, "subject": "Task 1: Instalar @vercel/kv e atualizar .env.example", "status": "pending"},
+    {"id": 2, "subject": "Task 2: Refatorar lib/json-storage.ts para usar Vercel KV", "status": "pending", "blockedBy": [1]},
+    {"id": 3, "subject": "Task 3: Consolidar app/api/financial/import/route.ts", "status": "pending", "blockedBy": [2]},
+    {"id": 4, "subject": "Task 4: Verificação local (dev sem KV)", "status": "pending", "blockedBy": [3]},
+    {"id": 5, "subject": "Task 5: Configurar Vercel KV no dashboard e fazer deploy", "status": "pending", "blockedBy": [4]}
+  ],
+  "lastUpdated": "2026-03-12T00:00:00.000Z"
+}

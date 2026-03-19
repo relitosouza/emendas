@@ -1,0 +1,1386 @@
+[
+  {
+    "amendmentId": "066.21.30.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.827Z"
+  },
+  {
+    "amendmentId": "102.15.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.19.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.03.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "102.20.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.01.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "102.18.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.11.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.21.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.10.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "102.12.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.02.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "102.14.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "102.08.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "102.06.02.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "078.21.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.828Z"
+  },
+  {
+    "amendmentId": "078.02.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.828Z"
+  },
+  {
+    "amendmentId": "140.21.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "140.13.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.03.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.20.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.06.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.17.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.01.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "138.18.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.05.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.15.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.09.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.08.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.19.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.21.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.02.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.14.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.10.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.04.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.12.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "138.11.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.864Z"
+  },
+  {
+    "amendmentId": "106.17.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.19.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.18.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.02.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.838Z"
+  },
+  {
+    "amendmentId": "106.20.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.21.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.05.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.15.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.04.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.11.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.03.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.08.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.14.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.06.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.09.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "106.12.09.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "068.17.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.827Z"
+  },
+  {
+    "amendmentId": "134.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.857Z"
+  },
+  {
+    "amendmentId": "136.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.861Z"
+  },
+  {
+    "amendmentId": "132.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.854Z"
+  },
+  {
+    "amendmentId": "133.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.855Z"
+  },
+  {
+    "amendmentId": "108.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "133.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.855Z"
+  },
+  {
+    "amendmentId": "111.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.845Z"
+  },
+  {
+    "amendmentId": "109.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.842Z"
+  },
+  {
+    "amendmentId": "134.02.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.857Z"
+  },
+  {
+    "amendmentId": "132.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.854Z"
+  },
+  {
+    "amendmentId": "136.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.862Z"
+  },
+  {
+    "amendmentId": "132.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.855Z"
+  },
+  {
+    "amendmentId": "134.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.858Z"
+  },
+  {
+    "amendmentId": "109.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.841Z"
+  },
+  {
+    "amendmentId": "109.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.841Z"
+  },
+  {
+    "amendmentId": "133.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.856Z"
+  },
+  {
+    "amendmentId": "135.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.859Z"
+  },
+  {
+    "amendmentId": "132.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.854Z"
+  },
+  {
+    "amendmentId": "133.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.857Z"
+  },
+  {
+    "amendmentId": "137.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "109.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.841Z"
+  },
+  {
+    "amendmentId": "109.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.841Z"
+  },
+  {
+    "amendmentId": "108.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "136.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.862Z"
+  },
+  {
+    "amendmentId": "111.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.844Z"
+  },
+  {
+    "amendmentId": "132.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.854Z"
+  },
+  {
+    "amendmentId": "132.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.854Z"
+  },
+  {
+    "amendmentId": "135.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.859Z"
+  },
+  {
+    "amendmentId": "068.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.827Z"
+  },
+  {
+    "amendmentId": "135.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.859Z"
+  },
+  {
+    "amendmentId": "137.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "110.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.842Z"
+  },
+  {
+    "amendmentId": "111.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.845Z"
+  },
+  {
+    "amendmentId": "099.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "133.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.856Z"
+  },
+  {
+    "amendmentId": "137.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "136.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.861Z"
+  },
+  {
+    "amendmentId": "136.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.860Z"
+  },
+  {
+    "amendmentId": "107.08.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "134.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.858Z"
+  },
+  {
+    "amendmentId": "133.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.856Z"
+  },
+  {
+    "amendmentId": "110.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.842Z"
+  },
+  {
+    "amendmentId": "108.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "108.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "111.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.846Z"
+  },
+  {
+    "amendmentId": "133.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.856Z"
+  },
+  {
+    "amendmentId": "068.19.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.828Z"
+  },
+  {
+    "amendmentId": "135.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.859Z"
+  },
+  {
+    "amendmentId": "111.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.845Z"
+  },
+  {
+    "amendmentId": "134.19.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.858Z"
+  },
+  {
+    "amendmentId": "135.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.860Z"
+  },
+  {
+    "amendmentId": "108.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "099.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "135.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.860Z"
+  },
+  {
+    "amendmentId": "135.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.860Z"
+  },
+  {
+    "amendmentId": "108.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "108.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "109.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.842Z"
+  },
+  {
+    "amendmentId": "135.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.860Z"
+  },
+  {
+    "amendmentId": "137.06.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "136.10.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.862Z"
+  },
+  {
+    "amendmentId": "109.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.841Z"
+  },
+  {
+    "amendmentId": "137.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "137.09.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "111.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.846Z"
+  },
+  {
+    "amendmentId": "108.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.840Z"
+  },
+  {
+    "amendmentId": "107.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.839Z"
+  },
+  {
+    "amendmentId": "110.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.843Z"
+  },
+  {
+    "amendmentId": "111.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.844Z"
+  },
+  {
+    "amendmentId": "110.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.843Z"
+  },
+  {
+    "amendmentId": "099.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.829Z"
+  },
+  {
+    "amendmentId": "110.15.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.843Z"
+  },
+  {
+    "amendmentId": "136.11.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.862Z"
+  },
+  {
+    "amendmentId": "109.15.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.842Z"
+  },
+  {
+    "amendmentId": "133.03.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.855Z"
+  },
+  {
+    "amendmentId": "137.12.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.863Z"
+  },
+  {
+    "amendmentId": "111.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.844Z"
+  },
+  {
+    "amendmentId": "137.01.12.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.862Z"
+  },
+  {
+    "amendmentId": "105.01.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.836Z"
+  },
+  {
+    "amendmentId": "105.08.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.837Z"
+  },
+  {
+    "amendmentId": "105.20.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.838Z"
+  },
+  {
+    "amendmentId": "105.15.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.838Z"
+  },
+  {
+    "amendmentId": "105.19.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.838Z"
+  },
+  {
+    "amendmentId": "105.12.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.837Z"
+  },
+  {
+    "amendmentId": "105.06.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.836Z"
+  },
+  {
+    "amendmentId": "105.03.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.836Z"
+  },
+  {
+    "amendmentId": "105.14.14.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.837Z"
+  },
+  {
+    "amendmentId": "104.15.15.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.834Z"
+  },
+  {
+    "amendmentId": "104.20.15.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.835Z"
+  },
+  {
+    "amendmentId": "104.19.15.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.835Z"
+  },
+  {
+    "amendmentId": "104.03.15.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.834Z"
+  },
+  {
+    "amendmentId": "112.17.15.2026",
+    "reservado": "271.000,00",
+    "empenhado": "271.000,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.847Z"
+  },
+  {
+    "amendmentId": "131.19.16.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.854Z"
+  },
+  {
+    "amendmentId": "131.03.16.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.853Z"
+  },
+  {
+    "amendmentId": "131.08.16.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.853Z"
+  },
+  {
+    "amendmentId": "066.18.30.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.826Z"
+  },
+  {
+    "amendmentId": "103.03.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.831Z"
+  },
+  {
+    "amendmentId": "103.14.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.833Z"
+  },
+  {
+    "amendmentId": "103.10.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.832Z"
+  },
+  {
+    "amendmentId": "103.19.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.833Z"
+  },
+  {
+    "amendmentId": "103.08.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.831Z"
+  },
+  {
+    "amendmentId": "103.20.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.834Z"
+  },
+  {
+    "amendmentId": "103.12.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.832Z"
+  },
+  {
+    "amendmentId": "103.15.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.833Z"
+  },
+  {
+    "amendmentId": "103.02.34.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.830Z"
+  },
+  {
+    "amendmentId": "130.11.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.851Z"
+  },
+  {
+    "amendmentId": "130.06.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.849Z"
+  },
+  {
+    "amendmentId": "130.07.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.850Z"
+  },
+  {
+    "amendmentId": "130.10.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.850Z"
+  },
+  {
+    "amendmentId": "130.08.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.850Z"
+  },
+  {
+    "amendmentId": "130.16.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.852Z"
+  },
+  {
+    "amendmentId": "130.02.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.848Z"
+  },
+  {
+    "amendmentId": "130.03.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.849Z"
+  },
+  {
+    "amendmentId": "130.15.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.851Z"
+  },
+  {
+    "amendmentId": "130.19.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.852Z"
+  },
+  {
+    "amendmentId": "130.01.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.848Z"
+  },
+  {
+    "amendmentId": "130.05.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.849Z"
+  },
+  {
+    "amendmentId": "130.12.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.851Z"
+  },
+  {
+    "amendmentId": "130.20.36.2026",
+    "reservado": "0,00",
+    "empenhado": "0,00",
+    "liquidado": "0,00",
+    "pago": "0,00",
+    "updatedAt": "2026-03-13T17:35:17.852Z"
+  }
+]

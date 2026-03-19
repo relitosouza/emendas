@@ -1,0 +1,14 @@
+{
+  "planPath": "docs/plans/2026-03-12-financial-events-history.md",
+  "tasks": [
+    {"id": 7, "subject": "Task 1: Expand FinancialRecord types in lib/json-storage.ts", "status": "pending"},
+    {"id": 8, "subject": "Task 2: Add event CRUD functions to lib/json-storage.ts", "status": "pending", "blockedBy": [7]},
+    {"id": 9, "subject": "Task 3: Add GET /api/financial/[amendmentId] route", "status": "pending", "blockedBy": [8]},
+    {"id": 10, "subject": "Task 4: Add POST/PUT/DELETE /api/financial/events route", "status": "pending", "blockedBy": [8]},
+    {"id": 11, "subject": "Task 5: Create FinancialHistory admin component", "status": "pending", "blockedBy": [9, 10]},
+    {"id": 12, "subject": "Task 6: Integrate FinancialHistory into admin edit page", "status": "pending", "blockedBy": [11]},
+    {"id": 13, "subject": "Task 7: Add public FinancialExecution section to project details page", "status": "pending", "blockedBy": [9]},
+    {"id": 14, "subject": "Task 8: End-to-end smoke test", "status": "pending", "blockedBy": [12, 13]}
+  ],
+  "lastUpdated": "2026-03-12T00:00:00.000Z"
+}

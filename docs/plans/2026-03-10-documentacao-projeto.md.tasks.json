@@ -1,0 +1,23 @@
+{
+  "planPath": "docs/plans/2026-03-10-documentacao-projeto.md",
+  "tasks": [
+    {
+      "id": 1,
+      "subject": "Task 1: Reescrever o README.md raiz com visão geral do projeto",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "subject": "Task 2: Criar guia de uso detalhado em docs/GUIA-DE-USO.md",
+      "status": "pending",
+      "blockedBy": [1]
+    },
+    {
+      "id": 3,
+      "subject": "Task 3: Verificar links internos e executar lint final",
+      "status": "pending",
+      "blockedBy": [2]
+    }
+  ],
+  "lastUpdated": "2026-03-10T00:00:00.000Z"
+}
